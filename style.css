@@ -1,0 +1,393 @@
+/*        */
+/* 共通部分 */
+/*        */
+*{
+    color:#6F7579;
+}
+body{
+    margin:0;
+    /* letter-spacing: 1.7px; */
+}
+h1,h2,h3,h4,h5,h6,ul,p{
+    margin:0;
+}
+ul{
+    padding:0;
+}
+body a{
+    color:#555;
+}
+li{
+    list-style:none;
+}
+a{
+    text-decoration: none;
+}
+p{
+    font-size: 12px;
+}
+
+
+
+/*        */
+/* header */
+/*        */
+
+
+
+
+header{
+    padding:0 30px;
+    align-items:center;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+
+
+}
+.logo{
+    font-size: 16px;
+}
+.header-nav{
+    margin-left:auto;
+}
+.header-nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+.header-nav li{
+    margin-left:30px;
+    font-size: 12px;
+}
+.header-nav li:first-child{
+    margin-left:0;
+}
+
+.make-account{
+    border:1px solid black;
+    padding:8px 24px;
+    margin-left:50px;
+}
+
+
+
+/*             */
+/* top-content */
+/*             */
+
+
+
+
+.top-content{
+    background-color: #32353b;
+    width:100%;
+    height: 280px;
+}
+
+.top-content .wrap{
+    padding-top:55px;
+    width:650px;
+    margin:0 auto;
+}
+ .top-content .title{
+    text-align:center;
+    color:white;
+    font-size: 36px;
+}
+
+.top-comment{
+    margin-top:30px;
+    text-align:center;
+    color:white;
+}
+.top-comment p{
+    font-size: 16px;
+}
+/* main */
+.blog-contents{
+    margin:120px  50px 0 120px;
+    display:flex;
+    justify-content: space-between;
+}
+
+
+
+
+/*             */
+/* main-sections */
+/*             */
+
+
+
+
+
+.main-sections{
+    /* width: 769px;
+    padding:120px 120px 0px; */
+}
+.section-item{
+    margin-top:45px;
+    display:flex;
+    justify-content: space-between;
+}
+.box{
+    width: 200px;
+    height: 150px;
+    background-color: skyblue;
+}
+.section-comment{
+    /* height: 150px; */
+    /* line-height: 20px; */
+    margin-left:25px;
+    /* border:1px solid black; */
+}
+.section-exp{
+    font-size: 12px;
+    line-height: 20px;
+}
+.section-title{
+    font-size:24px;
+}
+.section-exp{
+    margin-top:10px;
+}
+
+
+
+.section-bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top:10px;
+}
+.mark{
+    float:left;
+}
+.mark p{
+    display: inline-block;
+}
+.mark-heart,.mark-comment{
+    float:left;
+}
+.mark-comment{
+    margin-left:20px;
+}
+.mark span{
+    margin-right:5px;
+}
+
+
+
+/*             */
+/*     side    */
+/*             */
+
+
+
+
+/* menu */
+
+
+
+.side-contents{
+    /* width:144px; */
+    /* margin-right:136px; */
+    /* margin-top:122px;  */
+    margin-right:32px;
+}
+.menu p, .menu-second p{
+    font-size: 12px;
+}
+.menu-nav{
+    margin-top:27px;
+}
+.menu-nav span{
+    margin-right:8px;
+
+}
+.menu-nav li{
+    margin-top:20px;
+}
+
+.menu-second{
+    margin-top:100px;
+}
+
+
+
+
+
+/* post */
+
+
+
+.post{
+    margin-top:40px;
+    /* padding:32px; */
+    /* border:1px solid black; */
+    font-size:12px;
+}
+.top-post{
+    /* border:solid 1px black; */
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    
+}
+.user-icon{
+    margin-right:10px;
+    display: inline-block;
+    font-size: 30px;
+}
+
+.user-name{
+    margin-right:auto;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.past{
+   color:rgba(134, 146, 166,0.7)
+}
+
+.post-comment{
+    margin-top:16px;
+    line-height: 20px;
+
+}
+.post-comment span{
+    color:skyblue;
+
+}
+.post-box{
+    margin-top:10px;
+    width: 196px;
+    height: 170px;
+    background-color: skyblue;
+}
+.post .section-bottom{
+    align-items:center;
+}
+.post .mark{
+    font-size:16px;
+}
+
+
+
+
+/*              */
+/* mail-company */
+/*              */
+
+
+
+
+.mail-company{
+    margin-top:45px;
+    padding:50px 50px 0;
+    background-color: #d9dbde;
+    height: 240px;
+    display:flex;
+    justify-content: space-between;
+}
+
+
+
+
+/* mail */
+
+
+
+
+.mail{
+    width: 350px;
+}
+
+.mail-lead{
+    margin-top: 20px;
+}
+
+.email{
+    margin-top:20px;
+    height: 40px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.email .title{
+    font-size: 18px;
+}
+.email-address{
+    height:40px;
+    width: 210px;
+}
+
+.email-button{
+    display: inline-block;
+    border-radius: 5px;
+    background-color: rgba(58, 64, 74);
+    color:white;
+    padding:10px 36px;
+}
+
+
+
+
+/* company */
+
+
+
+.company{
+    width: 287px;
+}
+.company-name{
+    font-size: 16px;
+}
+.company-address{
+    margin-top:20px;
+    line-height: 30px;
+}
+
+
+/*         */
+/* footer  */
+/*         */
+
+footer{
+   background-color: #32353b;
+    padding:0 30px;
+    height: 50px;
+    line-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 9px;
+}
+footer small, .footer-copy{
+    color:white;
+}
+.footer-copy{
+   margin-right:2px;
+}
+.footer-icons{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    
+}
+.footer-icons li{
+    margin-left:30px;
+}
+.footer-icons li:first-child{
+    margin-left:none;
+}
+
+.fotter-icon{
+    color:white;
+}
+
+
+
+
+
+
+
+
